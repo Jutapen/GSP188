@@ -1,0 +1,29 @@
+# Penjaga kredensial - jangan sampai ter-commit
+*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+.env
+.env.*
+*.env
+credentials*
+*secret*
+*token*
+id_rsa*
+id_ed25519*
+.config/
+.kube/
+.ssh/
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Sampah umum
+*.log
+*.swp
+.DS_Store
+.sed_done
+.prepare_done
